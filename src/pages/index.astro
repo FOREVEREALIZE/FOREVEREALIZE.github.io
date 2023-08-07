@@ -20,17 +20,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
 <Layout>
-  <script defer>
-    window.addEventListener("DOMContentLoaded", function() {
-      const displayTM = Math.random() > 0.5
-      const container = document.getElementById("TMSYMBOL")
-      container.innerText = displayTM ? "™" : ""
-    }, false);
-  </script>
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>foreverealize's blog<div id="TMSYMBOL"></div></h1>
+      <h1>foreverealize's blog&trade;</h1>
       <a
         target="_blank"
         href="/rss.xml"
