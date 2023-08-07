@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/",
+  website: "https://foreverealize.me/",
   author: "Sat Naing",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  title: "foreverealize",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -21,51 +21,39 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
-    name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: ` ${SITE.title} on Github`,
+    name: "github",
+    href: "https://github.com/foreverealize",
+    linkTitle: ` ${SITE.title} on github`,
     active: true,
   },
   {
-    name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
+    name: "mail",
+    href: "mailto:foreverealize@proton.me",
+    linkTitle: `send an email to ${SITE.title}`,
     active: true,
   },
   {
-    name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
+    name: "x",
+    href: "https://x.com/foreverealize",
+    linkTitle: `${SITE.title} on x`,
     active: true,
   },
   {
-    name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on LinkedIn`,
+    name: "twitch",
+    href: "https://twitch.tv/leslocuresdenfelix",
+    linkTitle: `${SITE.title} on twitch`,
     active: true,
-  },
-  {
-    name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
-  },
-  {
-    name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitter`,
-    active: false,
-  },
-  {
-    name: "Twitch",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitch`,
-    active: false,
   },
   {
     name: "YouTube",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on YouTube`,
+    active: false,
+  },
+  {
+    name: "LinkedIn",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: `${SITE.title} on LinkedIn`,
     active: false,
   },
   {
@@ -78,6 +66,12 @@ export const SOCIALS: SocialObjects = [
     name: "Snapchat",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Snapchat`,
+    active: false,
+  },
+  {
+    name: "Instagram",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: `${SITE.title} on Instagram`,
     active: false,
   },
   {
