@@ -21,25 +21,25 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
-    name: "github",
+    name: "Github",
     href: "https://github.com/foreverealize",
     linkTitle: ` ${SITE.title} on github`,
     active: true,
   },
   {
-    name: "mail",
+    name: "Mail",
     href: "mailto:foreverealize@proton.me",
     linkTitle: `send an email to ${SITE.title}`,
     active: true,
   },
   {
-    name: "x",
-    href: "https://x.com/foreverealize",
-    linkTitle: `${SITE.title} on x`,
+    name: "Twitter",
+    href: "https://twitter.com/foreverealize",
+    linkTitle: `${SITE.title} on twitter (or x?)`,
     active: true,
   },
   {
-    name: "twitch",
+    name: "Twitch",
     href: "https://twitch.tv/leslocuresdenfelix",
     linkTitle: `${SITE.title} on twitch`,
     active: true,
