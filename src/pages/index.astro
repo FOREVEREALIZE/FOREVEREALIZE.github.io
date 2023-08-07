@@ -22,7 +22,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <Layout>
   <script defer>
     const displayTM = Math.random() > 0.5
-    const cont = document.getElemenyById("TMSYMBOL")
+    const cont = document.getElementById("TMSYMBOL")
     cont.innerText = displayTM ? "&trade;" : ""
   </script>
   <Header />
