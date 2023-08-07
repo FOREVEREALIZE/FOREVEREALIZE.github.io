@@ -17,14 +17,18 @@ const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
-const displayTM = Math.random() > 0.5
 ---
 
 <Layout>
+  <script defer>
+    const displayTM = Math.random() > 0.5
+    const cont = document.getElemenyById("TMSYMBOL")
+    cont.innerText = displayTM ? "&trade;" : ""
+  </script>
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>foreverealize's blog{displayTM && (<>&trade;</>)}</h1>
+      <h1>foreverealize's blog<div id="TMSYMBOL"></div></h1>
       <a
         target="_blank"
         href="/rss.xml"
