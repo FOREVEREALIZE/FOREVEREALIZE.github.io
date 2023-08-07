@@ -21,9 +21,11 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
 <Layout>
   <script defer>
-    const displayTM = Math.random() > 0.5
-    const cont = document.getElementById("TMSYMBOL")
-    cont.innerText = displayTM ? "&trade;" : ""
+    window.addEventListener("DOMContentLoaded", function() {
+      const displayTM = Math.random() > 0.5
+      const container = document.getElementById("TMSYMBOL")
+      container.innerText = displayTM ? "™" : ""
+    }, false);
   </script>
   <Header />
   <main id="main-content">
