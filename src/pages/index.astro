@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>foreverealize's blog{(Math.floor(Math.random() * 1000000) % 2) === 0 && (<>&trade;</>)}</h1>
+      <h1>foreverealize's blog{Math.random() > 0.5 && (<>&trade;</>)}</h1>
       <a
         target="_blank"
         href="/rss.xml"
