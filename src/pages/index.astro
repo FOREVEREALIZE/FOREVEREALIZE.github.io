@@ -17,13 +17,14 @@ const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
+const displayTM = Math.random() > 0.5
 ---
 
 <Layout>
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>foreverealize's blog{Math.random() > 0.5 && (<>&trade;</>)}</h1>
+      <h1>foreverealize's blog{displayTM && (<>&trade;</>)}</h1>
       <a
         target="_blank"
         href="/rss.xml"
