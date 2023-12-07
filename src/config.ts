@@ -2,8 +2,8 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://foreverealize.me/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  author: "foreverealize",
+  desc: "just a lil blog for some thingies!",
   title: "foreverealize's blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -52,9 +52,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Discord",
-    href: "https://pastebin.com/Si6RmJXJ",
+    href: "https://pastebin.com/NOPENOPENOPE",
     linkTitle: `${SITE.author} on discord`,
-    active: true,
+    active: false,
   },
   {
     name: "YouTube",
