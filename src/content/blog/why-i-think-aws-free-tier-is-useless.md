@@ -1,6 +1,6 @@
 ---
 author: Sat Naing
-pubDatetime: 2023-12-07T18:00:00.000+01:00
+pubDatetime: 2023-12-11T09:00:00.000+01:00
 title: why i think the AWS Free Tier is useless, and how to fix it
 postSlug: why-i-think-aws-free-tier-is-useless
 featured: true
